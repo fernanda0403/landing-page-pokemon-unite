@@ -1,5 +1,13 @@
 body {
-  background-color: rgb(0, 0, 48);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(142, 142, 229);
+  font-family: "Martel Sans", sans-serif;
   color: aliceblue;
 }
+
+h1 {
+  font-family: "lilita one", sans-serif;
+}
+
+cremoas la estructura del header y la barra de navegacion
+
+vinculamos google fonts y materil de icons
