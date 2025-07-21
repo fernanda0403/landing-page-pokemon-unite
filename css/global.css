@@ -1,0 +1,27 @@
+/* aqui vamos a definir estilos  variables que se reilicen en todo el sitio. */
+
+:root {
+ --primer: #F0F0F0;
+
+
+ --body-text: var(--dark-color);
+
+ --font-primary: "Martel sans";
+ --font-secondary: "lilita one";
+}
+
+body {
+font-family: var(--font-primary);
+background-color: var(--light-color);
+color: var(--dark-color);
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--dark-color);
+}
