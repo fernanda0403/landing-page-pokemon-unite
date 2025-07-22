@@ -26,7 +26,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 }
 
 .navbar-menu a {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   text-transform: uppercase;
 }
 
@@ -35,3 +35,39 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 }
 
 
+/* hero */
+
+.hero {
+  height: 100vh;
+  min-height: 700px;
+  background-image: url("../assets/image/newto\ fondo.png");
+  background-size: cover;
+  background-position: center;
+  color: var(--ligth);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-content p {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-medium);
+  max-width: 80%;
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-small);
+  margin-bottom: var(--space-medium);
+}
+
+.hero-icons {
+  display: flex;
+  gap: var(--space-small);
+}
