@@ -28,6 +28,17 @@ h5,
 h6 {
   font-family: var(--font-primary);
   color: var(--azul);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.8rem;
 }
 
 /* buttons */
@@ -67,4 +78,14 @@ h6 {
 .button-secundary:hover {
   color: var(--azul);
   background-color: var(--ligth);
+}
+
+
+/* section characters */
+
+
+/* characteres */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }

@@ -71,3 +71,77 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   display: flex;
   gap: var(--space-small);
 }
+
+/* section characters */
+
+
+/* characteres */
+
+.characteres {
+  background-color: var(--ligth);
+  color: var(--azul);
+}
+
+
+
+/* header secction */
+
+.characters-header {
+  margin-bottom: 1rem;
+}
+
+
+
+/* content section */
+
+.character-content {
+  display: flex;
+  align-items: center;
+}
+
+
+
+ /* thumbnails */
+
+.characters-thumbnail {
+  width: 50%;
+}
+
+.thumbnail-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-medium);
+}
+
+.thumbnail-item {
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  filter: brightness(0.6);
+}
+
+.thumbnail-item:hover {
+  filter: brightness(1);
+  transition: filter .3seg ease;
+}
+
+
+
+/* showcase */
+
+.characters-showcase {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-medium);
+}
+
+.caracter-image {
+  margin-bottom: 1rem ;
+}
+
+.character-info {
+  text-align: center;
+  
+}
