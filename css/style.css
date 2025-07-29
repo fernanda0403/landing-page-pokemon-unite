@@ -26,7 +26,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 }
 
 .navbar-menu a {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   text-transform: uppercase;
 }
 
@@ -168,12 +168,18 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 .carrusel-item {
   position: relative;
+
+  filter: brightness(0.6);
+}
+
+.carrusel-item:hover {
+  filter: brightness(1);
+  transition: filter .3seg ease;
 }
 
 .carrusel-item img {
   width: 100%;
   height: auto;
-   filter: brightness(0.6);
 }
 
 .carrusel-item span {
