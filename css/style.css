@@ -162,12 +162,14 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   text-align: center;
   margin-bottom: var(--space-medium);
   color: var(--negro);
+  
 }
 
 .carrusel {
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .carrusel-track {
@@ -175,22 +177,28 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   justify-content: center;
   gap: var(--space-medium);
   margin-bottom: var(--space-medium);
+  padding: var(--space-small); 
 }
 
 .carrusel-item {
   position: relative;
-
-  filter: brightness(0.6);
+  color: var(--blanco);
 }
 
 .carrusel-item:hover {
-  filter: brightness(1);
-  transition: filter .3seg ease;
+  color: var(--negro);
 }
 
 .carrusel-item img {
   width: 100%;
   height: auto;
+
+  filter: brightness(0.6);
+}
+
+.carrusel-item:hover img {
+  filter: brightness(1);
+  transition: filter .3seg ease;
 }
 
 .carrusel-item span {
@@ -198,9 +206,10 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: var(--negro);
+  font-size: 4rem;
 }
+
+
 
 .carrusel-controls button {
   color: var(--negro);
