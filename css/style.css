@@ -86,8 +86,8 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 /* characteres */
 
 .characteres {
-  background-color: var(--ligth);
-  color: var(--azul);
+  background-color: var(--blanco);
+  color: var(--negro);
 }
 
 
@@ -96,6 +96,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 .characters-header {
   margin-bottom: 1rem;
+  padding: var(--space-normal);
 }
 
 
@@ -105,6 +106,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 .character-content {
   display: flex;
   align-items: center;
+  padding: var(--space-normal);
 }
 
 
@@ -118,7 +120,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 .thumbnail-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-medium);
+  gap: var(--space-small);
 }
 
 .thumbnail-item {
@@ -142,7 +144,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-medium);
+  gap: var(--space-small);
 }
 
 .caracter-image {
@@ -159,6 +161,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 .media {
   text-align: center;
   margin-bottom: var(--space-medium);
+  color: var(--negro);
 }
 
 .carrusel {
@@ -196,11 +199,15 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
-  color: rgb(93, 20, 20);
+  color: var(--negro);
 }
 
 .carrusel-controls button {
-  color: red;
+  color: var(--negro);
+}
+
+.carrusel-controls button:hover {
+  color: var(--azul);
 }
 
 .carrusel-controls span {
