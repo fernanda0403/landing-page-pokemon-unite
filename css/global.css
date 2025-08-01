@@ -1,10 +1,10 @@
 /* aqui vamos a definir estilos  variables que se reilicen en todo el sitio. */
 
 :root {
-  --ligth: #F0F0F0;
-  --azul: #13132F;
-  --green: #A8BE43;
-  --pink: #C03CE6;
+  --ligth: #c3c3c3;
+  --azul: #222268;
+  --green: #a6c22c;
+  --pink: #9d1bc1;
 
  --font-primary: "lilita one";
  --font-secondary: "Martel sans";
