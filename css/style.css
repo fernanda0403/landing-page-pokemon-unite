@@ -22,6 +22,9 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 .navbar-menu {
   display: flex;
+  font-family: var(--font-secondary);
+  font-weight: 900;
+  font-size: var(--space-small);
   gap: var(--space-medium);
 }
 
@@ -31,7 +34,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 }
 
 .navbar-menu a:hover {
-  color: var(--pink);
+  color: var(--azul);
 }
 
 
@@ -43,7 +46,6 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   background-image: url("../assets/image/newto\ fondo.png");
   background-size: cover;
   background-position: center;
-  color: var(--ligth);
 
   display: flex;
   justify-content: flex-end;
@@ -53,6 +55,10 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 .hero-content {
   width: 50%;
+}
+
+.h1-img {
+  width: 80%;
 }
 
 .hero-content p {
@@ -65,11 +71,13 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   display: flex;
   gap: var(--space-small);
   margin-bottom: var(--space-medium);
+  
 }
 
 .hero-icons {
   display: flex;
   gap: var(--space-small);
+  cursor: pointer;
 }
 
 /* section characters */
@@ -188,7 +196,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: rgb(93, 20, 20);
 }
 
 .carrusel-controls button {

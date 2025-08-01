@@ -1,10 +1,15 @@
 /* aqui vamos a definir estilos  variables que se reilicen en todo el sitio. */
 
 :root {
-  --ligth: #c3c3c3;
-  --azul: #222268;
-  --green: #a6c22c;
-  --pink: #9d1bc1;
+  --blanco: #F2F2F2;
+  --negro: #011510;
+  --negro-2: #042018;
+
+  --naranja: #D95103;
+  --naranja-N: #4E382C;
+  --morado: #7342D9;
+  --azul: #2C61A5;
+
 
  --font-primary: "lilita one";
  --font-secondary: "Martel sans";
@@ -16,8 +21,8 @@
 
 body {
 font-family: var(--font-secondary );
-background-color: var(--azul);
-color: var(--ligth);
+background-color: var(--blanco);
+color: var(--blanco);
 }
 
 h1, 
@@ -49,8 +54,8 @@ h3 {
   align-items: center;
   gap: var(--space-small);
   padding: var(--space-small) var(--space-normal);
-  background-color: var(--green);
-  color: var(--ligth);
+  background-color: var(--naranja);
+  color: var(--blanco);
   border-radius: 32px;
   text-transform: uppercase;
   font-size: .95rem;
@@ -58,8 +63,8 @@ h3 {
 }
 
 .button-primary:hover {
-  color: var(--azul);
-  background-color: var(--pink);
+  color: var(--blanco);
+  background-color: var(--azul);
 }
 
 .button-secundary {
@@ -67,8 +72,8 @@ h3 {
   align-items: center;
   gap: var(--space-small);
   padding: var(--space-small) var(--space-normal);
-  background-color: var(--azul);
-  color: var(--ligth);
+  background-color: var(--negro);
+  color: var(--blanco);
   border-radius: 32px;
   text-transform: uppercase;
   font-size: .95rem;
@@ -77,8 +82,8 @@ h3 {
 
 
 .button-secundary:hover {
-  color: var(--azul);
-  background-color: var(--ligth);
+  color: var(--negro);
+  background-color: var(--blanco);
 }
 
 
