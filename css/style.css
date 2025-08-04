@@ -18,6 +18,9 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   justify-content: space-between;
   align-items: center;
   padding: var(--space-small);
+
+  background-color: var( --negro-2-transparente);
+  backdrop-filter: blur(6px);
 }
 
 .navbar-logo {
