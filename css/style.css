@@ -233,3 +233,11 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   font-size: 3rem;
 }
 
+.about {
+  background-image: url(../assets/image/about/fondo-about.png);
+  background: #7242d932;
+  background: linear-gradient(90deg, rgb(114, 66, 217) 0%, rgb(4, 32, 24) 100%);
+  background-size: cover;
+  background-position: center;
+  color: var(--negro);
+}
