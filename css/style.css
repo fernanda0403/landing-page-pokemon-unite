@@ -102,8 +102,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 /* header secction */
 
 .characters-header {
-  margin-bottom: 1rem;
-  padding: var(--space-normal);
+
 }
 
 
@@ -113,7 +112,6 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 .character-content {
   display: flex;
   align-items: center;
-  padding: var(--space-normal);
 }
 
 
@@ -155,6 +153,8 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 }
 
 .caracter-image {
+  border-radius: 2rem;
+  overflow: hidden;
   cursor: pointer;
 }
 
