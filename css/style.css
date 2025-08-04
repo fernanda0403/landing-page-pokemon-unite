@@ -20,6 +20,10 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   padding: var(--space-small);
 }
 
+.navbar-logo {
+  cursor: pointer;
+}
+
 .navbar-menu {
   display: flex;
   font-family: var(--font-secondary);
@@ -149,6 +153,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 .caracter-image {
   margin-bottom: 1rem ;
+  cursor: pointer;
 }
 
 .character-info {
@@ -182,11 +187,9 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 .carrusel-item {
   position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
   color: var(--blanco);
-}
-
-.carrusel-item:hover {
-  color: var(--negro);
 }
 
 .carrusel-item img {
@@ -194,11 +197,11 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   height: auto;
 
   filter: brightness(0.6);
+  transition: filter 0.3s ease;
 }
 
 .carrusel-item:hover img {
   filter: brightness(1);
-  transition: filter .3seg ease;
 }
 
 .carrusel-item span {
@@ -207,6 +210,11 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 4rem;
+  cursor: pointer;
+}
+
+.carrusel-item:hover span{
+  color: var(--negro);
 }
 
 
