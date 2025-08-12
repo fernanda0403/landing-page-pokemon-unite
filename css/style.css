@@ -281,4 +281,8 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   color: var(--blanco);
 
 }
-/* cambio */
+/* conceptos */
+
+.conceptos {
+  color: var(--negro);
+}
