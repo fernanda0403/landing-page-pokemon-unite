@@ -95,6 +95,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 .characteres {
   background-color: var(--blanco);
   color: var(--negro);
+  padding: 1rem;
 }
 
 
@@ -102,7 +103,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 /* header secction */
 
 .characters-header {
-
+  margin-bottom: 1rem;
 }
 
 
@@ -122,22 +123,22 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   width: 50%;
 }
 
-.thumbnail-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-small);
-}
-
 .thumbnail-item {
   border-radius: 1rem;
   overflow: hidden;
   cursor: pointer;
   filter: brightness(0.6);
+   transition: filter 0.3seg ease;
 }
 
 .thumbnail-item:hover {
   filter: brightness(1);
-  transition: filter .3seg ease;
+}
+
+.thumbnail-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-medium);
 }
 
 
@@ -149,7 +150,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-small);
+  gap: var(--space-medium);
 }
 
 .caracter-image {
@@ -233,11 +234,49 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   font-size: 3rem;
 }
 
+
+
+/* about */
+
 .about {
-  background-image: url(../assets/image/about/fondo-about.png);
-  background: #7242d932;
-  background: linear-gradient(90deg, rgb(114, 66, 217) 0%, rgb(4, 32, 24) 100%);
+  background: 
+  /* capas */
+
+  /* layer 1 */ linear-gradient(90deg, rgba(114, 66, 217, 0.6) 0%, rgba(4, 32, 24, 0.6) 100%),
+  /* separa por comas */ 
+  /* layer 2 */ url(../assets/image/about/fondo-about.png) center center no-repeat;
   background-size: cover;
-  background-position: center;
-  color: var(--negro);
+}
+
+.about > div {
+  display: flex;
+  padding: var(--space-medium);
+}
+
+.about-image,
+.about-content {
+  width: 50%;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 240px;
+  min-width: 200px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2,
+.about-content p {
+  color: var(--blanco);
 }
