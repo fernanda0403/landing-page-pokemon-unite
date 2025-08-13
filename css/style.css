@@ -19,7 +19,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   align-items: center;
   padding: var(--space-small);
 
-  background-color: var( --negro-2-transparente);
+  background-color: var(--negro-2-transparente);
   backdrop-filter: blur(6px);
 }
 
@@ -57,7 +57,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
+
 }
 
 .hero-content {
@@ -78,7 +78,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   display: flex;
   gap: var(--space-small);
   margin-bottom: var(--space-medium);
-  
+
 }
 
 .hero-icons {
@@ -117,7 +117,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 
 
- /* thumbnails */
+/* thumbnails */
 
 .characters-thumbnail {
   width: 50%;
@@ -128,7 +128,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   overflow: hidden;
   cursor: pointer;
   filter: brightness(0.6);
-   transition: filter 0.3seg ease;
+  transition: filter 0.3seg ease;
 }
 
 .thumbnail-item:hover {
@@ -161,7 +161,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 .character-info {
   text-align: center;
-  
+
 }
 
 /* Media */
@@ -170,14 +170,14 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   text-align: center;
   margin-bottom: var(--space-medium);
   color: var(--negro);
-  
+
 }
 
 .carrusel {
   position: relative;
   width: 100%;
   overflow: hidden;
-  
+
 }
 
 .carrusel-track {
@@ -185,7 +185,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   justify-content: center;
   gap: var(--space-medium);
   margin-bottom: var(--space-medium);
-  padding: var(--space-small); 
+  padding: var(--space-small);
 }
 
 .carrusel-item {
@@ -216,7 +216,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   cursor: pointer;
 }
 
-.carrusel-item:hover span{
+.carrusel-item:hover span {
   color: var(--negro);
 }
 
@@ -239,16 +239,18 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 /* about */
 
 .about {
-  background: 
-  /* capas */
+  background:
+    /* capas */
 
-  /* layer 1 */ linear-gradient(90deg, rgba(114, 66, 217, 0.6) 0%, rgba(4, 32, 24, 0.6) 100%),
-  /* separa por comas */ 
-  /* layer 2 */ url(../assets/image/about/fondo-about.png) center center no-repeat;
+    /* layer 1 */
+    linear-gradient(90deg, rgba(114, 66, 217, 0.5) 0%, rgba(4, 32, 24, 0.5) 100%),
+    /* separa por comas */
+    /* layer 2 */
+    url(../assets/image/about/fondo-about.png) center center no-repeat;
   background-size: cover;
 }
 
-.about > div {
+.about>div {
   display: flex;
   padding: var(--space-medium);
 }
@@ -281,10 +283,44 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   color: var(--blanco);
 
 }
+
 /* conceptos */
 
-.conceptos {
+.secction-concepts {
   color: var(--negro);
 }
 
-/* cambio */
+.concepts-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.concepts-header {
+  text-align: center;
+  margin-bottom: var(--space-small);
+  max-width: 50%;
+}
+
+.content-item {
+  max-width: 80%;
+}
+
+.concepts-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: var(--space-medium);
+  gap: var(--space-medium);
+}
+
+.concepts-image {
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 50%;
+}
+
+.concepts-info {
+  width: 50%;
+}
