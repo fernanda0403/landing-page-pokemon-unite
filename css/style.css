@@ -324,3 +324,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 .concepts-info {
   width: 50%;
 }
+
+.cambio {
+  color: red;
+}
