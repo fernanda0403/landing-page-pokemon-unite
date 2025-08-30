@@ -327,17 +327,27 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 /* buy new section */
 
-.buy-all {
 
-   display: flex;
+.buy {
+  background: linear-gradient(0deg, #011510 78.17%, #f2f2f2 78.17%);
+
+  margin-top: 15rem;
+
+}
+
+.buy-all {
+  display: flex;
   align-items: center;
   justify-content: center;
+
+  background: linear-gradient(0deg, #011510 50%, #f2f2f2 50%);
+
 }
 
 
 
 .buy-concept {
-  background:  linear-gradient(180deg, rgb(63, 28, 138) 0%, rgb(4, 32, 24) 100%);
+  background: linear-gradient(180deg, rgb(63, 28, 138) 0%, rgb(4, 32, 24) 100%);
 
   display: flex;
   align-items: center;
@@ -346,6 +356,7 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   max-width: 60%;
 
   border-radius: 2rem;
+
 }
 
 .buy-info {
@@ -355,14 +366,14 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
   justify-content: center;
   flex-direction: column;
   max-width: 70%;
-  padding: 3rem 0 0 0 ;
+  padding: 3rem 0 0 0;
   gap: 1rem;
 
   text-align: center;
 }
 
 .buy-button {
- 
+
   width: 100%;
   height: 100%;
 
@@ -373,4 +384,47 @@ aqui vaos a estilar todas las secciones, sus contenidos y el responsive
 
 
   padding: 1rem 0 3rem 0;
+}
+
+/* Merch */
+
+
+.tienda {
+  margin-top: 10rem;
+  background-color: var(--negro);
+  
+}
+
+.merch-header {
+  text-align: center;
+}
+
+.navar-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 8rem;
+
+  gap: var(--space-medium);
+}
+
+
+.navbar-merch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  width: 49%;
+}
+
+.item-merch {
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: .6rem;
+
+  border-radius: 1rem;
+
+  background: linear-gradient(90deg, #1118ae 0%, #170aa4 100%);
 }
